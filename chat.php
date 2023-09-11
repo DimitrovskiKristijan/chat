@@ -17,25 +17,25 @@
     </head>
     <body>
     <h1>CHAT</h1>
-    <button id="disconnetti"><a href="index.html">Disconnetti</a></button>
-        <header>
-            
-        </header>
-        <main>
-           <div>
-           <ul id="listaContatti" sceltoUtente="<?php echo $_SESSION['username']; ?>"> <!-- data utente da problemi--></ul>
-            </div>
+        <main>  
+           <ul id="listaContatti" sceltoUtente="<?php echo $_SESSION['username']; ?>"> <!-- data utente da problemi--></ul>       
             <section>
                 <header id="nomeSopra"></header>
-                <section id="chat" class="chat"></section>
+                <div id="imgWhat">
+                <div id="chat" class="chat"></div>
+                
                 <div id="barraInvio">
                     <input type="text" id="barraScrittura" placeholder="Scrivi...">
                     <button id="btnInvio">
                         <span>Invia</span>
                     </button>
-                </div>          
+                </div> 
+                </div>         
             </section>
-        </main> 
+        </main>
+        <div id="btnDisconnetti">
+        <button id="disconnetti"><a href="index.html">Disconnetti</a></button> 
+        <div>
     </body>
     <script src="JS/script.js"></script> <!-- METTO ALLA FINE PERCHE' SE MESSO SOTTO L' HEAD NON VUOLE PRENDERMELO-->
     </html> 

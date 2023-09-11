@@ -1,0 +1,98 @@
+h1{
+    text-align: center;
+    background-color: rgb(24, 92, 59);
+    margin: 0;
+}
+
+#listaContatti{
+    background-color: whitesmoke;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 400px;
+    height: 650px;
+    padding: 0;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+li{
+    padding: 10px;
+    height: 30px;
+    background-color: whitesmoke;
+    border: 1px solid  rgb(225, 215, 215);
+    font-size: 12pt;
+}
+#chat{
+    width: 1270px;
+    height: 516px;
+    padding-top: 2%;
+}
+
+#imgWhat{
+    background-image: url('../IMG/sfondoWathsapp.jpg');
+}
+
+main{
+    display: flex;
+}
+
+#nomeSopra{
+    background-color: darkseagreen;
+    height: 50px;
+    text-align: left;
+    font-size: 20pt;
+    padding-left: 10px;
+    padding-top: 10px;
+    color: white;
+}
+
+body{
+    margin: 0;
+}
+
+.messaggino{
+    padding-left: 10px;
+    padding-top: 5px;
+    margin-bottom: 10px;
+    max-width: 200px;
+    border: 1px solid;
+    border-radius: 15px;
+}
+
+.messaginoInviato{
+background-color: rgb(103, 255, 103);
+margin-left: 80%;
+}
+
+.messagginoRicevuto{
+    background-color: whitesmoke;
+}
+
+#barraScrittura{
+width: 90%;
+height: 40px;
+border-radius: 40px;
+border-color: whitesmoke;
+margin-bottom: 5px;
+}
+#btnInvio{
+width: 9%;
+height: 40px;
+border-radius: 40px;
+border-color: rgb(103, 255, 103);
+background-color: rgb(103, 255, 103);
+margin-bottom: 5px;
+}
+#btnDisconnetti{
+    text-align: center;
+    background-color: rgb(24, 92, 59);
+    padding: 5px;
+}
+#disconnetti{
+    width: 12%;
+    height: 40px;
+    border-radius: 40px;
+    border-color: rgb(103, 255, 103);
+    background-color: rgb(103, 255, 103);
+    color: white;
+}
