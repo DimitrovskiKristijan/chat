@@ -9,14 +9,16 @@
 </head>
 <body>
     <header>
-        <h1>Accesso Obbligatorio prima di poter chattare</h1>
+        <h1 style="color: lightgreen;">Accesso obbligatorio prima di poter chattare</h1>
     </header>
     <form action="Login.php" method="POST">
-    <h2>LOGIN</h2>
-        <label for="username">Username:</label><input type="text" name="username" id="username" placeholder="inserire lo username"  required><br>
-        <label for="password">Password:</label><input type="password" name="pwd" id="pwd" placeholder="inserire una password a scelta"  required ><br>
-        <input type="submit" id="btnRegistrati" value="LOGIN"><br>
-      <p>Se non sei ancora iscritto clicca qui affianco...<a href="registrazione.php">Registrati</a></p>
+    <h2 style="padding: 10px; color: lightgreen; text-align: center; background-color: rgb(24, 92, 59); margin: 0; margin-bottom: 10%;">Benvenuto in CHATZAPP</h2>
+    <div class="contenitoreAccesso">
+        <b><label for="username" style="font-size: 14pt; font-style: bold; color: lightgreen;">Username: </label></b><input type="text" name="username" id="username" placeholder="inserire lo username"  required><br><br><br>
+        <b><label for="password" style="font-size: 14pt; font-style: bold; color: lightgreen;">Password: </label></b><input type="password" name="pwd" id="pwd" placeholder="inserire una password a scelta"  required ><br><br><br><br>
+        <input type="submit" id="btnRegistrati" value="LOGIN"><br><br><br>
+      <p style="color: rgb(24, 92, 59);">Se non sei ancora iscritto clicca qui affianco...<a href="registrazione.php">Registrati</a></p>
+    </div>
     </form>   
     <footer>
     
